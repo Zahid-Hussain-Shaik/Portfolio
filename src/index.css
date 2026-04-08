@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: #020617;
+    color: #f8fafc;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #0f172a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 4px;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #64748b;
+  }
+
+  /* Selection */
+  ::selection {
+    background-color: rgba(99, 102, 241, 0.3);
+    color: #e2e8f0;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 to-cyan-400;
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .animate-pulse-slow {
+    animation: pulse-slow 4s ease-in-out infinite;
+  }
+
+  @keyframes pulse-slow {
+    0%, 100% {
+      opacity: 0.4;
+    }
+    50% {
+      opacity: 0.8;
+    }
+  }
+}
