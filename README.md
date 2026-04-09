@@ -19,6 +19,9 @@ This is a modern, responsive, and high-fidelity developer portfolio built with R
 ![About Section](public/screenshots/about.png)
 
 
+### Featured Projects
+![Projects Grid](public/screenshots/projects_grid.png)
+![Hire Me Button](public/screenshots/projects_more.png)
 
 
 

@@ -175,13 +175,13 @@ export function Projects() {
           className="mt-16 text-center"
         >
           <a
-            href={personalInfo.linkedin}
+            href={personalInfo.github}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-10 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-bold rounded-full hover:shadow-lg hover:shadow-indigo-500/30 transition-all duration-300 group"
+            className="inline-flex items-center gap-2 px-10 py-4 bg-gradient-to-r from-slate-800 to-slate-900 text-white font-bold rounded-full hover:shadow-lg hover:shadow-indigo-500/30 transition-all duration-300 group"
           >
-            HIRE ME
-            <Linkedin className="w-5 h-5 group-hover:scale-110 transition-transform" />
+            VIEW MORE ON GITHUB
+            <Github className="w-5 h-5 group-hover:scale-110 transition-transform" />
           </a>
         </motion.div>
       </div>
