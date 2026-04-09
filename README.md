@@ -21,7 +21,7 @@ This is a modern, responsive, and high-fidelity developer portfolio built with R
 
 ### Featured Projects
 ![Projects Grid](public/screenshots/projects_grid.png)
-![Hire Me Button](public/screenshots/projects_more.png)
+![View More on GitHub Button](public/screenshots/projects_more.png)
 
 
 
